@@ -9,9 +9,7 @@ on:
 jobs:
   build:
     steps:
-      - uses: docker://golang:1.20.3-alpine3.17
-        name: Say hello
-        kind: build
+      - uses: docker://maven:3-eclipse-temurin-17
+        name: Maven Build
         shell: sh
-        run: |
-          echo "hello world"
+        run: mvn clean verify -
