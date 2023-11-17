@@ -4,7 +4,6 @@ name: My automation
 on:
   push:
     branches:
-      - "**"
       - master
 jobs:
   build:
