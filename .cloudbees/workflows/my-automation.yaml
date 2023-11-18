@@ -22,7 +22,7 @@ jobs:
         run: |
           cat version > $CLOUDBEES_OUTPUTS/version
     outputs:
-      version: ${{steps.compute-version.outputs.version}}
+      version: ${{ steps.compute-version.outputs.version }}
   deploy:
     steps:
       - uses: docker://golang:1.20
