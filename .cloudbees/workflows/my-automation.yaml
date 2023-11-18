@@ -12,6 +12,6 @@ jobs:
         name: Say hello
         shell: sh
         run: |
-          echo "hello world"
+          echo "hello world !"
       - uses: cloudbees-io/checkout@v1
         name: Checkout
