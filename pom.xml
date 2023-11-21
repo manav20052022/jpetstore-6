@@ -95,7 +95,7 @@
     <dependency>
       <groupId>net.sourceforge.stripes</groupId>
       <artifactId>stripes</artifactId>
-      <version>1.7.0</version>
+      <version>1.6.0</version>
       <exclusions>
         <exclusion>
           <groupId>commons-logging</groupId>
