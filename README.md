@@ -1,4 +1,4 @@
-MyBatis JPetStore Naqsh01v3.9
+MyBatis JPetStore Naqsh01v5.3
 =================
 
 [![Java CI](https://github.com/mybatis/jpetstore-6/actions/workflows/ci.yaml/badge.svg)](https://github.com/mybatis/jpetstore-6/actions/workflows/ci.yaml)
@@ -22,8 +22,11 @@ Essentials
 - JPetstore on MyBatis Spring Boot Starter https://github.com/kazuki43zoo/mybatis-spring-boot-jpetstore
 - Adding just a line for testing...
 - Changing to reflect commit [shozab tag]
-- Changing to reflect commit [wes tag]
-
+- Changing to reflect commit [wesley tag]
+- Changing to reflect commit [greg tag]
+- At WeWork today [greg]
+- Testing K8s mapping fix [wesley_tag]
+  
 ## Run on Application Server
 Running JPetStore sample under Tomcat (using the [cargo-maven2-plugin](https://codehaus-cargo.github.io/cargo/Maven2+plugin.html)).
 
